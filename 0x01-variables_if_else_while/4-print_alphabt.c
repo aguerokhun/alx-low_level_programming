@@ -13,8 +13,11 @@ int main(void)
 
 	for (int x = 'A'; x <= 'Z'; x++)
 	{
-		lower_x = tolower(x);
-		putchar(lower_x);
+		if (x != 'Q' && x != 'E')
+		{
+			lower_x = tolower(x);
+			putchar(lower_x);
+		}
 	}
 	putchar('\n');
 	return (0);
