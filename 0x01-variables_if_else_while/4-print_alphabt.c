@@ -11,7 +11,9 @@ int main(void)
 {
 	int lower_x;
 
-	for (int x = 'A'; x <= 'Z'; x++)
+	int x;
+
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		if (x != 'Q' && x != 'E')
 		{
